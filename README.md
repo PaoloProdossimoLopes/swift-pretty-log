@@ -1,6 +1,10 @@
 #  PRETTY LOG
 This study is arround logs to improve debug all days
 
+# 📷 SCREENSHOT
+<img src="ScreenShots/log1.png" height="200"> <img src="ScreenShots/log2.png" height="200"> <img src="ScreenShots/log4.png" height="200">
+<img src="ScreenShots/log3.png">
+
 ## 🧰 Example:
 ```swift
 LOG.DEBUG(.API(.success("API - Success")))
