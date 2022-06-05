@@ -1,8 +1,19 @@
-#  TITLE
-DESCRIPTION ...
+#  PRETTY LOG
+This study is arround logs to improve debug all days
 
 ## 🧰 Example:
 ```swift
+LOG.DEBUG(.API(.success("API - Success")))
+LOG.DEBUG(.API(.failure("API - Error")))
+LOG.DEBUG(.ERROR("Error"))
+LOG.DEBUG(.WARNING("Warning"))
+LOG.DEBUG(.TODO("Todo"))
+LOG.DEBUG(.SUCCESS("Success"))
+LOG.DEBUG(.ln("other"))
+
+LOG.DEBUG(.SUCCESS("Variant 1"), style: .abreviate)
+
+LOG.DEBUG(.SUCCESS("Variant 2"), style: .complete)
 ```
 
 ## ℹ️  GETTING STARTED
@@ -14,7 +25,7 @@ DESCRIPTION ...
 1. Open your terminal in location that you want save the project.
 2. Clone the repo in this local.
 ```sh
-git clone https://github.com/PaoloProdossimoLopes/repository-template.git
+git clone https://github.com/PaoloProdossimoLopes/swift-pretty-log.git
 ```
 3. Open the file with extension .xcodeproj inside the folder project.
    
